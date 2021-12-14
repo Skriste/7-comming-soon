@@ -9,7 +9,7 @@ _32 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/Skriste/2-Mergaite
+Site published at: https://skriste.github.io/7-comming-soon/
 
 Design: [Sign in] https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
 
