@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://skriste.github.io/7-comming-soon/
 
-Design: [Sign in] https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
+Design: [Comming soon] https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
 
 ## Project features
 
