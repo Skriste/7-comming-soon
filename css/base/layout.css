@@ -30,7 +30,7 @@
 @media (max-width: 900px) {
     .container > .row {
         width: 600px;
-        margin-left: 0 calc(50% - 300px);
+        margin: 0 calc(50% - 300px);
     }
 }
 
@@ -38,7 +38,7 @@
     .container > .row-short,
     .container > .row {
         width: 400px;
-        margin-left: 0 calc(50% - 200px);
+        margin: 0 calc(50% - 200px);
     }
 }
 
