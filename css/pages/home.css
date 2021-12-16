@@ -53,9 +53,25 @@
 .hero .form {
     margin-bottom: 15px;
 }
+
 /* HERO: end */
 
 /* MAIN CONTENT: start */
+
+.content-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 1em
+}
+
+.content-description {
+    font-size: 17px;
+}
+
+.progress-bar {
+    margin-bottom: 20px;
+}
 /* MAIN CONTENT: end */
 
 /* FOOTER: start */
