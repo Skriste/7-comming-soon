@@ -19,7 +19,7 @@
 .container .left {
     float: left;
     width: 50%;
-    margin-right: 10%;
+    margin: 10%;
     background-color: tomato;
 }
 
