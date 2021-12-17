@@ -52,6 +52,7 @@
 
     .container .right {
         width: 40%;
+        margin-left: 20px;
     }
 
 @media (max-width: 460px) {
