@@ -10,6 +10,10 @@
     margin-bottom: 0;
 }
 
+.form > label {
+    display: none;
+}
+
 .form > input {
     width: calc(50% - 10px);
 }
