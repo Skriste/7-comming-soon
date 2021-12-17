@@ -57,6 +57,9 @@
 /* HERO: end */
 
 /* MAIN CONTENT: start */
+.column > * {
+    margin-bottom: 20px;
+}
 
 .content-title {
     text-transform: uppercase;
@@ -67,6 +70,15 @@
 
 .content-description {
     font-size: 17px;
+}
+
+.content-description > .link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.content-description > .link:hover {
+    text-decoration: underline;
 }
 
 .progress-bar {
