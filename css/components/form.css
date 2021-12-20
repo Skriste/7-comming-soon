@@ -1,5 +1,6 @@
 .form {
-
+    display: inline-block;
+    width: 100%;
 }
 
 .form > * {
@@ -15,22 +16,17 @@
 }
 
 .form > input {
-    width: calc(50% - 10px);
-}
-
-.form > input:last-of-type {
-    float: right;
-    background-color: chocolate;
-}
-.form > .input {
+    width: 100%;
     padding: 0.5em 0;
+    float: left;
     font-size: 17px;
     line-height: 1.5em;
+    background-color: transparent;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
     border-radius: 0.2em;
-
 }
+
 .form > textarea {
     width: 100%;
     min-height: 100px;

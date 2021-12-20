@@ -3,6 +3,9 @@
 @import '../base/variable.css';
 @import '../base/layout.css';
 
+/* 3rd-party */
+@import "../components/font-awesome.min.css"
+
 /* components */
 @import '../components/button.css';
 @import '../components/clock.css';
@@ -51,7 +54,17 @@
 }
 
 .hero .form {
-    margin-bottom: 15px;
+    width: 90%;
+    margin: 0 5% 15px;
+}
+
+.hero .form > .input {
+    color: #fff;
+    border-color: currentColor;
+}
+
+.hero .form > .input::placeholder {
+    color: currentColor;
 }
 
 /* HERO: end */
@@ -81,8 +94,17 @@
     text-decoration: underline;
 }
 
-.progress-bar {
-    margin-bottom: 20px;
+main .form > button {
+    float: right;
+}
+
+@media (min-width: 900px) {
+    main .form > input.input {
+        width: calc(50% - 10px);
+    }
+    main .form > input.input:last-of-type {
+        float: right;
+    }
 }
 /* MAIN CONTENT: end */
 
