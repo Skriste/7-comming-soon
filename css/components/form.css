@@ -15,7 +15,7 @@
     display: none;
 }
 
-.form > input {
+.form > .input {
     width: 100%;
     padding: 0.5em 0;
     float: left;
@@ -35,3 +35,6 @@
     resize: vertical;
 }
 
+.form *:focus {
+    outline: 1px solid var(--secondary-color);
+}
