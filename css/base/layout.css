@@ -1,31 +1,30 @@
 .container {
     display: inline-block;
     width: 100%;
-    padding: 100px;
-}
-
-.container > .row-short {
-    display: inline-block;
-    width: 600px;
-    margin: 0 calc(50% - 300px);
+    padding: 60px 0;
 }
 
 .container > .row {
-    display: inline-block;
+    float: left;
     width: 800px;
     margin: 0 calc(50% - 400px);
+}
+
+.container > .row-short {
+    float: left;
+    width: 600px;
+    margin: 0 calc(50% - 300px);
 }
 
 .container .left {
     float: left;
     width: 50%;
-    margin: 10%;
+    margin-right: 10%;
 }
 
 .container .right {
     float: left;
     width: 40%;
-
 }
 
 @media (max-width: 900px) {
@@ -41,17 +40,16 @@
         width: 400px;
         margin: 0 calc(50% - 200px);
     }
-}
 
     .container .left {
-        width: 50%;
+        width: 100%;
         margin: 0 0 60px;
-}
+    }
 
     .container .right {
-        width: 40%;
-        margin-left: 20px;
+        width: 100%;
     }
+}
 
 @media (max-width: 460px) {
     .container {
@@ -64,4 +62,3 @@
         margin-left: 0;
     }
 }
-
