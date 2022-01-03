@@ -180,6 +180,16 @@ footer .link {
     color: #fff;
     text-decoration: none;
 }
+
+@media (max-width: 700px) {
+    footer .trio > p {
+        width: 100%;
+    }    
+        
+    footer .trio > p::before {
+        display: none;
+    }
+}
 /* FOOTER: end */
 .back-to-top {
     position: fixed;

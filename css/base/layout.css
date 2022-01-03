@@ -20,13 +20,11 @@
     float: left;
     width: 50%;
     margin: 10%;
-    background-color: tomato;
 }
 
 .container .right {
     float: left;
     width: 40%;
-    background-color: yellowgreen;
 
 }
 
