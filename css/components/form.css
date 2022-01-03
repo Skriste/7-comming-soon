@@ -15,7 +15,7 @@
     display: none;
 }
 
-.form > input {
+.form > .input {
     width: 100%;
     padding: 0.5em 0;
     float: left;
