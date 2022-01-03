@@ -35,3 +35,6 @@
     resize: vertical;
 }
 
+.form *:focus {
+    outline: 1px solid var(--secondary-color);
+}
